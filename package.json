@@ -1,8 +1,7 @@
 {
   "bin": "index.js",
-  "name":"divarTOjson",
+  "name": "divarTOjson",
   "version": "1.3.0",
-
   "dependencies": {
     "puppeteer": "^22.3.0"
   }
