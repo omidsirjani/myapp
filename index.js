@@ -19,11 +19,11 @@ let scrap = async () => {
       let title = item.querySelector('.kt-post-card__info > h2');
       let price = item.querySelector('.kt-post-card__info > div.kt-post-card__description');
       let image = null ;
-      image = item.querySelector('.kt-post-card-thumbnail > div > picture > img');
+      //image = item.querySelector('.kt-post-card-thumbnail > div > picture > img');
       results.push({
         title : title.innerText,
-        price : price.innerText,
-        image : image.getAttribute('data-src')
+        price : price.innerText
+       // image : image.getAttribute('data-src')
     })
     });      
     return results;
